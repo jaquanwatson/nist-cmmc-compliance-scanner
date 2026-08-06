@@ -28,7 +28,13 @@ def _discover() -> None:
     if _DISCOVERED:
         return
     # Importing these modules triggers their @register decorators.
-    from compliance_scanner.checks import os_checks  # noqa: F401
+    from compliance_scanner.checks import (  # noqa: F401
+        audit_checks,
+        auth_checks,
+        filesystem_checks,
+        network_checks,
+        os_checks,
+    )
 
     _DISCOVERED = True
 
