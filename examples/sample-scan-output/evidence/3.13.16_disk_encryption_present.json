@@ -1,0 +1,9 @@
+{
+  "control_id": "3.13.16",
+  "check_name": "disk_encryption_present",
+  "status": "fail",
+  "summary": "/etc/crypttab not found",
+  "detail": "",
+  "checked_at": "2026-08-06T10:13:19.963301",
+  "sha256": "eb68054859d7a4e55b96221db38fff1c50303918535bcc868f0d1ec0f534a6f8"
+}

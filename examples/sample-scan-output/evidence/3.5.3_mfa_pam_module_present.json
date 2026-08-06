@@ -1,0 +1,9 @@
+{
+  "control_id": "3.5.3",
+  "check_name": "mfa_pam_module_present",
+  "status": "fail",
+  "summary": "No recognized MFA PAM module configured for local or SSH authentication",
+  "detail": "Checked: /etc/pam.d/common-auth, /etc/pam.d/system-auth, /etc/pam.d/sshd",
+  "checked_at": "2026-08-06T10:13:19.963172",
+  "sha256": "c051261657fd7148fe3239a5a2d79a65d1ac4346ab0028b5f8987573d3c5016f"
+}

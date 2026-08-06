@@ -13,7 +13,7 @@ venv/
 
 # Local scan artifacts (not committed — only curated examples/ output is)
 .compliance-scanner/
-evidence/
+/evidence/
 *.local.json
 
 .DS_Store

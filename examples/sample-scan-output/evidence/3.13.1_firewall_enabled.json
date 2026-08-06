@@ -1,0 +1,9 @@
+{
+  "control_id": "3.13.1",
+  "check_name": "firewall_enabled",
+  "status": "pass",
+  "summary": "nftables ruleset configured",
+  "detail": "#!/usr/sbin/nft -f\n\nflush ruleset\n\ntable inet filter {\n\tchain input {\n\t\ttype filter hook input priority filter;\n\t}\n\tchain forward {\n\t\ttype filter hook forward priority filter;\n\t}\n\tchain output {\n\t\ttype filter hook output priority filter;\n\t}\n}\n",
+  "checked_at": "2026-08-06T10:13:19.963275",
+  "sha256": "1d28f0e926fc542a469a1a666449e3e2629c38b9a166d69b623ff4b8be18201c"
+}

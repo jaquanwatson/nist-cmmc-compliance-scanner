@@ -1,0 +1,9 @@
+{
+  "control_id": "3.1.1",
+  "check_name": "world_writable_sensitive_files",
+  "status": "pass",
+  "summary": "No world-writable permissions found on sensitive files",
+  "detail": "/etc/passwd=0o644; /etc/shadow=0o640; /etc/sudoers=0o440",
+  "checked_at": "2026-08-06T10:13:19.963232",
+  "sha256": "379da2d6f281104bc3c3eb4f790df284d979ff693729ad3ff62badae54328505"
+}

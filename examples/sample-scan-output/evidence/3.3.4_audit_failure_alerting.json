@@ -1,0 +1,9 @@
+{
+  "control_id": "3.3.4",
+  "check_name": "audit_failure_alerting",
+  "status": "fail",
+  "summary": "/etc/audit/auditd.conf not found \u2014 auditd is not installed/configured",
+  "detail": "",
+  "checked_at": "2026-08-06T10:13:19.962709",
+  "sha256": "4dcf23e199d603b3cee2462e529828643d12ea9ad83da8ec899c53bfe0739bfe"
+}

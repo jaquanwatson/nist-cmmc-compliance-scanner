@@ -1,0 +1,9 @@
+{
+  "control_id": "3.13.8",
+  "check_name": "ssh_cipher_strength",
+  "status": "fail",
+  "summary": "/etc/ssh/sshd_config not found \u2014 cannot verify SSH transport encryption",
+  "detail": "",
+  "checked_at": "2026-08-06T10:13:19.963282",
+  "sha256": "de6d675567706a59465c7028cb3e5191df2ea1492f878a7190d119e818410254"
+}

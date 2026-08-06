@@ -1,0 +1,11 @@
+control_id,family,weakness,severity,identified_at,scheduled_completion,resources_required,milestones,status
+3.1.10,AC,Session lock: IdleAction is not set to 'lock' with a bounded IdleActionSec in logind.conf,High,2026-08-06T10:13:19.815058,2026-10-05,TBD,TBD,Open
+3.1.11,AC,Session termination: No TMOUT idle-timeout setting found in shell profile scripts,High,2026-08-06T10:13:19.815720,2026-10-05,TBD,TBD,Open
+3.1.8,AC,Unsuccessful logon attempts: No pam_faillock/pam_tally2 module found in the PAM auth stack,High,2026-08-06T10:13:19.815026,2026-10-05,TBD,TBD,Open
+3.13.11,SC,FIPS-validated cryptography: Kernel FIPS mode flag not present — FIPS-validated cryptography not confirmed,Moderate,2026-08-06T10:13:19.814997,2026-10-05,TBD,TBD,Open
+3.13.16,SC,Protection of CUI at rest: /etc/crypttab not found,Moderate,2026-08-06T10:13:19.815002,2026-10-05,TBD,TBD,Open
+3.13.8,SC,Transmission confidentiality: /etc/ssh/sshd_config not found — cannot verify SSH transport encryption,Moderate,2026-08-06T10:13:19.814982,2026-10-05,TBD,TBD,Open
+3.3.1,AU,Audit record creation and retention: Neither auditd nor persistent journald logging is configured,Moderate,2026-08-06T10:13:19.814436,2026-10-05,TBD,TBD,Open
+3.3.4,AU,Audit logging process failure alerts: /etc/audit/auditd.conf not found — auditd is not installed/configured,Moderate,2026-08-06T10:13:19.814446,2026-10-05,TBD,TBD,Open
+3.5.3,IA,Multifactor authentication: No recognized MFA PAM module configured for local or SSH authentication,High,2026-08-06T10:13:19.814907,2026-10-05,TBD,TBD,Open
+3.5.7,IA,Password complexity: No enforced password minimum length found (pwquality.conf / pam_pwquality minlen),High,2026-08-06T10:13:19.814701,2026-10-05,TBD,TBD,Open

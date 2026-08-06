@@ -1,0 +1,104 @@
+{
+  "host": "vm",
+  "generated_at": "2026-08-06T10:13:19.966373",
+  "items": [
+    {
+      "control_id": "3.3.1",
+      "check_name": "audit_logging_enabled",
+      "status": "fail",
+      "file": "3.3.1_audit_logging_enabled.json",
+      "sha256": "be3fc9e966be6297fc072f94a8dc1334700db1dd0e8baaf15d09e4805bf6ab5c"
+    },
+    {
+      "control_id": "3.3.4",
+      "check_name": "audit_failure_alerting",
+      "status": "fail",
+      "file": "3.3.4_audit_failure_alerting.json",
+      "sha256": "4dcf23e199d603b3cee2462e529828643d12ea9ad83da8ec899c53bfe0739bfe"
+    },
+    {
+      "control_id": "3.5.7",
+      "check_name": "password_complexity",
+      "status": "fail",
+      "file": "3.5.7_password_complexity.json",
+      "sha256": "b21a8a335746ffde4aa0f00005a52c5dad8c3e3407207042648ab61724e7db42"
+    },
+    {
+      "control_id": "3.5.10",
+      "check_name": "password_hash_strength",
+      "status": "pass",
+      "file": "3.5.10_password_hash_strength.json",
+      "sha256": "6a5ea620a1da182dbcae966ab92ebd98358a18a9faaa9692a0d7031add94426a"
+    },
+    {
+      "control_id": "3.5.3",
+      "check_name": "mfa_pam_module_present",
+      "status": "fail",
+      "file": "3.5.3_mfa_pam_module_present.json",
+      "sha256": "c051261657fd7148fe3239a5a2d79a65d1ac4346ab0028b5f8987573d3c5016f"
+    },
+    {
+      "control_id": "3.1.5",
+      "check_name": "shadow_file_permissions",
+      "status": "pass",
+      "file": "3.1.5_shadow_file_permissions.json",
+      "sha256": "9c5c657bd6fbb8bd51902b24154e53ee3f584c0921a5424bea5277c36b8ce98c"
+    },
+    {
+      "control_id": "3.1.1",
+      "check_name": "world_writable_sensitive_files",
+      "status": "pass",
+      "file": "3.1.1_world_writable_sensitive_files.json",
+      "sha256": "379da2d6f281104bc3c3eb4f790df284d979ff693729ad3ff62badae54328505"
+    },
+    {
+      "control_id": "3.13.1",
+      "check_name": "firewall_enabled",
+      "status": "pass",
+      "file": "3.13.1_firewall_enabled.json",
+      "sha256": "1d28f0e926fc542a469a1a666449e3e2629c38b9a166d69b623ff4b8be18201c"
+    },
+    {
+      "control_id": "3.13.8",
+      "check_name": "ssh_cipher_strength",
+      "status": "fail",
+      "file": "3.13.8_ssh_cipher_strength.json",
+      "sha256": "de6d675567706a59465c7028cb3e5191df2ea1492f878a7190d119e818410254"
+    },
+    {
+      "control_id": "3.13.11",
+      "check_name": "fips_mode_enabled",
+      "status": "fail",
+      "file": "3.13.11_fips_mode_enabled.json",
+      "sha256": "aca16849a349a17d044679eeb6c354c74fdb077f4d2f461a9db9e206a1ee9b5f"
+    },
+    {
+      "control_id": "3.13.16",
+      "check_name": "disk_encryption_present",
+      "status": "fail",
+      "file": "3.13.16_disk_encryption_present.json",
+      "sha256": "eb68054859d7a4e55b96221db38fff1c50303918535bcc868f0d1ec0f534a6f8"
+    },
+    {
+      "control_id": "3.1.8",
+      "check_name": "account_lockout_policy",
+      "status": "fail",
+      "file": "3.1.8_account_lockout_policy.json",
+      "sha256": "2bebda249fa34c4a7175db6a9c2122a0959b4a4ec3866d712337c4079d7367c3"
+    },
+    {
+      "control_id": "3.1.10",
+      "check_name": "session_lock_idle_action",
+      "status": "fail",
+      "file": "3.1.10_session_lock_idle_action.json",
+      "sha256": "788be2ab6aaa5466237486d3d521d908e68d1102cf53aa19d3d9056d8a97e5b8"
+    },
+    {
+      "control_id": "3.1.11",
+      "check_name": "shell_idle_timeout",
+      "status": "fail",
+      "file": "3.1.11_shell_idle_timeout.json",
+      "sha256": "1106841eb8593954cde9ea8472deb36723943bf76ccdc75357b55f03abebde7a"
+    }
+  ]
+}

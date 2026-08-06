@@ -1,0 +1,9 @@
+{
+  "control_id": "3.1.11",
+  "check_name": "shell_idle_timeout",
+  "status": "fail",
+  "summary": "No TMOUT idle-timeout setting found in shell profile scripts",
+  "detail": "Searched: /etc/profile, /etc/profile.d/01-locale-fix.sh, /etc/profile.d/bun.sh, /etc/profile.d/ccr-agent-proxy-ca.sh, /etc/profile.d/debuginfod.sh, /etc/profile.d/gradle.sh, /etc/profile.d/java.sh, /etc/profile.d/maven.sh, /etc/profile.d/nodejs.sh, /etc/profile.d/nvm.sh, /etc/profile.d/rbenv.sh, /etc/profile.d/ruby.sh",
+  "checked_at": "2026-08-06T10:13:19.963836",
+  "sha256": "1106841eb8593954cde9ea8472deb36723943bf76ccdc75357b55f03abebde7a"
+}

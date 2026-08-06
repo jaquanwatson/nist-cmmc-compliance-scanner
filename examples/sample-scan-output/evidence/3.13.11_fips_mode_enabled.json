@@ -1,0 +1,9 @@
+{
+  "control_id": "3.13.11",
+  "check_name": "fips_mode_enabled",
+  "status": "fail",
+  "summary": "Kernel FIPS mode flag not present \u2014 FIPS-validated cryptography not confirmed",
+  "detail": "",
+  "checked_at": "2026-08-06T10:13:19.963295",
+  "sha256": "aca16849a349a17d044679eeb6c354c74fdb077f4d2f461a9db9e206a1ee9b5f"
+}

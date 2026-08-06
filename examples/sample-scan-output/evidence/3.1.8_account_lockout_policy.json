@@ -1,0 +1,9 @@
+{
+  "control_id": "3.1.8",
+  "check_name": "account_lockout_policy",
+  "status": "fail",
+  "summary": "No pam_faillock/pam_tally2 module found in the PAM auth stack",
+  "detail": "Searched: /etc/pam.d/common-auth, /etc/pam.d/system-auth, /etc/pam.d/password-auth",
+  "checked_at": "2026-08-06T10:13:19.963326",
+  "sha256": "2bebda249fa34c4a7175db6a9c2122a0959b4a4ec3866d712337c4079d7367c3"
+}

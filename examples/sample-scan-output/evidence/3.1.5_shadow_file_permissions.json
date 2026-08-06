@@ -1,0 +1,9 @@
+{
+  "control_id": "3.1.5",
+  "check_name": "shadow_file_permissions",
+  "status": "pass",
+  "summary": "/etc/shadow mode 0o640 meets the least-privilege baseline",
+  "detail": "",
+  "checked_at": "2026-08-06T10:13:19.963183",
+  "sha256": "9c5c657bd6fbb8bd51902b24154e53ee3f584c0921a5424bea5277c36b8ce98c"
+}

@@ -1,0 +1,9 @@
+{
+  "control_id": "3.3.1",
+  "check_name": "audit_logging_enabled",
+  "status": "fail",
+  "summary": "Neither auditd nor persistent journald logging is configured",
+  "detail": "Checked: /etc/audit/auditd.conf, /etc/systemd/journald.conf",
+  "checked_at": "2026-08-06T10:13:19.962699",
+  "sha256": "be3fc9e966be6297fc072f94a8dc1334700db1dd0e8baaf15d09e4805bf6ab5c"
+}
