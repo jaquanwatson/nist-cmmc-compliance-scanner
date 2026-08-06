@@ -1,0 +1,176 @@
+# NIST SP 800-171 Rev 2 control subset, mapped to CMMC 2.0 Level 2 practices.
+#
+# This is intentionally a curated subset (~20 controls across four families:
+# AC, AU, IA, SC) rather than the full 110-control catalog — see the
+# project README for the reasoning. Each control below is either wired to
+# an automated check (see checks/registry.py) or left unmapped, which the
+# scorer reports as "manual review required" rather than silently passing it.
+#
+# Control text is a condensed paraphrase of the published NIST SP 800-171
+# Rev 2 requirement, not a verbatim quote. Always verify against the
+# authoritative source (https://csrc.nist.gov/pubs/sp/800/171/r2/final)
+# before using this catalog for an actual assessment.
+
+- id: "3.1.1"
+  family: AC
+  title: "Authorized access control"
+  description: >
+    Limit system access to authorized users, processes acting on behalf of
+    authorized users, and authorized devices.
+  cmmc_practice: "AC.L1-3.1.1"
+
+- id: "3.1.2"
+  family: AC
+  title: "Transaction and function control"
+  description: >
+    Limit system access to the types of transactions and functions that
+    authorized users are permitted to execute.
+  cmmc_practice: "AC.L1-3.1.2"
+
+- id: "3.1.5"
+  family: AC
+  title: "Least privilege"
+  description: >
+    Employ the principle of least privilege, including for specific
+    security functions and privileged accounts.
+  cmmc_practice: "AC.L2-3.1.5"
+
+- id: "3.1.8"
+  family: AC
+  title: "Unsuccessful logon attempts"
+  description: >
+    Limit unsuccessful logon attempts.
+  cmmc_practice: "AC.L2-3.1.8"
+
+- id: "3.1.10"
+  family: AC
+  title: "Session lock"
+  description: >
+    Use session lock with pattern-hiding displays to prevent access and
+    viewing of data after a period of inactivity.
+  cmmc_practice: "AC.L2-3.1.10"
+
+- id: "3.1.11"
+  family: AC
+  title: "Session termination"
+  description: >
+    Automatically terminate a user session after a defined condition,
+    such as an idle timeout.
+  cmmc_practice: "AC.L2-3.1.11"
+
+- id: "3.3.1"
+  family: AU
+  title: "Audit record creation and retention"
+  description: >
+    Create and retain system audit logs and records to the extent needed
+    to enable the monitoring, analysis, investigation, and reporting of
+    unlawful or unauthorized system activity.
+  cmmc_practice: "AU.L2-3.3.1"
+
+- id: "3.3.2"
+  family: AU
+  title: "User traceability"
+  description: >
+    Ensure that the actions of individual system users can be uniquely
+    traced to those users, so they can be held accountable for their
+    actions.
+  cmmc_practice: "AU.L2-3.3.2"
+
+- id: "3.3.4"
+  family: AU
+  title: "Audit logging process failure alerts"
+  description: >
+    Alert in the event of an audit logging process failure.
+  cmmc_practice: "AU.L2-3.3.4"
+
+- id: "3.3.5"
+  family: AU
+  title: "Audit review, analysis, and reporting"
+  description: >
+    Correlate audit record review, analysis, and reporting processes for
+    investigation and response to indications of unlawful, unauthorized,
+    suspicious, or unusual activity.
+  cmmc_practice: "AU.L2-3.3.5"
+
+- id: "3.5.1"
+  family: IA
+  title: "User and device identification"
+  description: >
+    Identify system users, processes acting on behalf of users, and
+    devices.
+  cmmc_practice: "IA.L1-3.5.1"
+
+- id: "3.5.2"
+  family: IA
+  title: "Identity authentication"
+  description: >
+    Authenticate (or verify) the identities of users, processes, or
+    devices as a prerequisite to allowing access to organizational
+    systems.
+  cmmc_practice: "IA.L1-3.5.2"
+
+- id: "3.5.3"
+  family: IA
+  title: "Multifactor authentication"
+  description: >
+    Use multifactor authentication for local and network access to
+    privileged accounts and for network access to non-privileged
+    accounts.
+  cmmc_practice: "IA.L2-3.5.3"
+
+- id: "3.5.7"
+  family: IA
+  title: "Password complexity"
+  description: >
+    Enforce a minimum password complexity and change of characters when
+    new passwords are created.
+  cmmc_practice: "IA.L2-3.5.7"
+
+- id: "3.5.10"
+  family: IA
+  title: "Cryptographically-protected passwords"
+  description: >
+    Store and transmit only cryptographically-protected passwords.
+  cmmc_practice: "IA.L2-3.5.10"
+
+- id: "3.13.1"
+  family: SC
+  title: "Boundary protection"
+  description: >
+    Monitor, control, and protect organizational communications at the
+    external boundaries and key internal boundaries of organizational
+    systems.
+  cmmc_practice: "SC.L1-3.13.1"
+
+- id: "3.13.2"
+  family: SC
+  title: "Secure architecture and design"
+  description: >
+    Employ architectural designs, software development techniques, and
+    systems engineering principles that promote effective information
+    security within organizational systems.
+  cmmc_practice: "SC.L2-3.13.2"
+
+- id: "3.13.8"
+  family: SC
+  title: "Transmission confidentiality"
+  description: >
+    Implement cryptographic mechanisms to prevent unauthorized disclosure
+    of CUI during transmission unless otherwise protected by alternative
+    physical safeguards.
+  cmmc_practice: "SC.L2-3.13.8"
+
+- id: "3.13.11"
+  family: SC
+  title: "FIPS-validated cryptography"
+  description: >
+    Employ FIPS-validated cryptography when used to protect the
+    confidentiality of CUI.
+  cmmc_practice: "SC.L2-3.13.11"
+
+- id: "3.13.16"
+  family: SC
+  title: "Protection of CUI at rest"
+  description: >
+    Protect the confidentiality of CUI at rest.
+  cmmc_practice: "SC.L2-3.13.16"
