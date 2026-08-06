@@ -53,16 +53,25 @@ class ScanResult:
 
 @dataclass
 class FamilyScore:
+    """Compliance score for one control family.
+
+    `not_checked` (no automated check registered, requires manual review)
+    is tracked separately from `not_applicable` (explicitly scoped out) —
+    conflating them would let unautomated controls silently disappear
+    from the score instead of surfacing as follow-up work.
+    """
+
     family: str
     total: int
     passed: int
     failed: int
     errored: int
     not_applicable: int
+    not_checked: int
 
     @property
     def percent(self) -> float:
-        scored = self.total - self.not_applicable
+        scored = self.passed + self.failed + self.errored
         if scored <= 0:
             return 100.0
         return round(100.0 * self.passed / scored, 1)
